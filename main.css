@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    min-height: 100vh; /* Define a altura mínima do container como 100% da altura da viewport */
+  /* Resto do seu estilo para o container */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  
+  .container {
+    max-width: 960px; /* largura máxima do container */
+    width: 90%; /* largura em relação ao container pai */
+    margin: 0 auto; /* centraliza horizontalmente */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* sombra suave */
+    background-color: transparent;/* cor de fundo */
+    border-radius: 10px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno */
+    text-align: center; /* centraliza o conteúdo do container */
+  }
+  
+  h1 {
+    font-size: 28px; /* tamanho da fonte */
+    font-weight: bold; /* negrito */
+    color: #fff; /* cor do texto */
+    margin-bottom: 20px; /* espaçamento inferior */
+  }
+  
+  h3 {
+    font-size: 18px; /* tamanho da fonte */
+    color: #555; /* cor do texto */
+    margin-bottom: 20px; /* espaçamento inferior */
+  }
+  
+  form {
+    display: flex; /* exibe os elementos em uma linha */
+    flex-direction: column; /* alinha os elementos verticalmente */
+    align-items: center; /* centraliza horizontalmente */
+  }
+  
+  input[type="number"] {
+    font-size: 18px; /* tamanho da fonte */
+    padding: 8px; /* espaçamento interno */
+    margin-bottom: 8px; /* espaçamento inferior */
+    width: 100%; /* largura total */
+    resize: none; /* impede o redimensionamento */
+    border: 3px solid #2db963 ; /* borda com cor */
+    border-radius: 5px; /* bordas arredondadas */
+  }
+  
+  
+  button {
+    background-color: #2ecc71; /* cor de fundo do botão */
+    border-radius: 10px; /* bordas arredondadas */
+    text-transform: uppercase; /* transforma o texto em maiúsculo */
+    color: #fff; /* cor do texto */
+    font-size: bold; /* fonte negrito */
+    cursor: pointer; /* cursor de ponteiro */
+    border: none;
+    padding: 8px 20px;
+
+  }
+  
+  button:hover {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+; /* cor de fundo do botão ao passar o mouse */
+  }
+  
+  .success-message {
+    background-color: #2ecc71; /* cor de fundo da mensagem de sucesso */
+    padding: 16px; /* espaçamento interno */
+    color: #fff; /* cor do texto */
+    display: none; /* oculta a mensagem */
+  }
+  
+  .error-message {
+    font-size: 12px; /* tamanho da fonte da mensagem de erro */
+    padding: 8px; /* espaçamento interno */
+    background-color: red; /* cor de fundo da mensagem de erro */
+    color: #fff; /* cor do texto */
+    margin-bottom: 8px; /* espaçamento inferior */
+    display: none; /* oculta a mensagem */
+  }
+  
+  input.error {
+    color: red; /* cor do texto em caso de erro */
+    border-color: red; /* cor da borda em caso de erro */
+    outline-color: red; /* cor do contorno em caso de erro */
+  }
+  
+
+  
